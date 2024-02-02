@@ -1,50 +1,55 @@
 h1 {
     text-align: center;
-    font-family:inherit;
+    font-family: inherit;
     font-size: 80px; 
     color: #9CCFF5; 
     margin-bottom: 0px; 
     margin-top: 0px; 
-    font-weight: bold
+    font-weight: bold;
 }
+
 h2 {
-    font-family:inherit; 
-    display:inline-block; 
+    font-family: inherit; 
+    display: inline-block; 
     margin: 0 30px;
-    color:#9CCFF5; 
+    color: #9CCFF5; 
     font-size: 25px; 
-    font-weight: bold
+    font-weight: bold;
 }
-h1:hover{
-    color: #F5B5E0
+
+h1:hover {
+    color: #F5B5E0;
 }
-h2:hover{
-    color: #F5B5E0
+
+h2:hover {
+    color: #F5B5E0;
 }
+
 header {
     text-align: center; 
     margin-bottom: 10px; 
     background-color: #F5D1A9; 
-    padding: 30px}
-a { 
-    text-decoration: none
+    padding: 30px;
 }
-footer {
-    background-color: #F5D1A9; 
-    font-family:inherit; 
-    color:#9CCFF5; 
-    font-size: 65; 
-    text-align: center;
-    padding: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    width: 100%
-}
-footer.hover{
-    color: #F5B5E0
-}
+
 body {
     background-color: #F3F1E6;
-    background-size: cover; 
-    margin: 0; 
+    margin: 0;  /* Remove default margin */
+}
+
+a { 
+    text-decoration: none;
+}
+
+footer {
+    background-color: #F5D1A9; 
+    font-family: inherit; 
+    color: #9CCFF5; 
+    font-size: 65px; 
+    text-align: center;
+    margin-top: 10px;
+}
+
+footer:hover {
+    color: #F5B5E0;
 }
