@@ -64,7 +64,7 @@ th, td {
                 font-size: 27px; 
                 color: #9CCFF5; 
                 font-family:inherit;
-                text-align: top;
+                vertical-align: top;
             }
             td{
                 color:#f19ed5; 
@@ -72,6 +72,13 @@ th, td {
                 font-size: 18px; 
                 padding: 5px;
                 vertical-align: top;
+                top: 0;
+            }
+            td.infosew,td.infoknit,td.infoclay,td.infobead{
+                position: relative;
+            }
+            .description{
+                position: absolute;
             }
             @media (max-width: 760px) { 
                 h3{ font-size: 17px}
@@ -83,6 +90,7 @@ th, td {
                 img{width: 120px; height: 90px;}
                 th{font-size: 23px}
                 .Descriptionsew,.Descriptionknit,.Descriptionclay,.Descriptionbead{visibility: hidden;}
+                td.infosew,td.infoknit,td.infoclay,td.infobead{vertical-align:top}
             }
         </style>
     </head>
@@ -98,7 +106,7 @@ th, td {
             <tr>
             <th> Knit </th>
             
-                 <td><img src='margarida-afonso-ahMCpXdUjv0-unsplash.jpg'></td>
+                 <td class="infoknit"><img src='margarida-afonso-ahMCpXdUjv0-unsplash.jpg'></td>
             <td>  <div class="Descriptionknit">
 
             <p> 
@@ -119,8 +127,8 @@ th, td {
             <tr>
                 <th> SEW </th>
                 <td><img src='pexels-pixabay-461035.jpg' width='250' height="225"></td>
-                <td>
-                    <div class="Descriptionsew">
+                <td class="infosew">
+                    <div class="Description.sew">
                     <p> 
                         <label>Description: </label>
                         Stitch fabrics together using a needle and thread or a sewing machine. 
@@ -140,7 +148,7 @@ th, td {
             <tr>
                 <th> BEAD </th>
                 <td><img src='pexels-kim-van-vuuren-1590159.jpg' width='250' height="225"></td>
-                <td>  
+                <td class="infobead">  
                     <div class="Descriptionbead">
                     <p> 
                         <label>Description: </label>
@@ -160,7 +168,7 @@ th, td {
             <tr>
                 <th> CLAY </th>
                 <td><img src='alex-jones-Tq4YjCa2BSc-unsplash.jpg' width='250' height="225"></td>
-                <td >  
+                <td class="infoclay">  
                     <div class="Descriptionclay">
                     <p> 
                        <label>Description:  </label> 
