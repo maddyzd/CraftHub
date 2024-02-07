@@ -4,41 +4,73 @@
         <title> Crafts </title>
         <link rel="stylesheet" href="headerstyle.css">
         <style type="text/css">
-
-        
             h3{
                 font-size: 27px; 
                 color: #9CCFF5; 
                 font-family:inherit
             }
-          
+    
             p {
                 font-size: 18px; 
-            margin: 5px 0; 
-            color:#f19ed5; 
-        }
+                margin: 5px 0; 
+                color:#f19ed5; 
+            }
       
             label{
                 color:#f19ed5; 
                 font-size: 21px; 
                 font-weight: bold
-              }
+            }
+
             a{
                 font-size: 18px;  
                 font-family:inherit; 
-                color: #9CCFF5}
+                color: #9CCFF5
+            }
+
             a:hover{
                 color:#F5B5E0
             }
+
             img{
                 border: solid 4px #F5D1A9;
+                width: 100%;
+                max-width: 250;
+                height: 100%;
+                max-height: 200;
             }
-            body {
-                align-items: center;
-            }
+
             ul {
                 text-align: center;
             }
+
+            table{
+                padding: 30px; 
+                
+                padding-left: 40px; 
+                font-family:inherit;
+                overflow-x: auto;
+            }
+        
+            th{
+                font-size: 27px; 
+                color: #9CCFF5; 
+                font-family:inherit
+            }
+            td{
+                color:#f19ed5; 
+                font-family:inherit; 
+                font-size: 18px; 
+                padding: 5px;
+                vertical-align: top;
+            }
+            @media (max-width: 760px) { 
+                h3{ font-size: 17px}
+                label{font-size: 15px}
+                p{font-size: 14px}
+                
+
+        }
         </style>
     </head>
        
@@ -49,27 +81,29 @@
     </header>
 
     <body>
-        <ul style="list-style-type: none">
-            <li>
-                <h3>KNIT</h3>
-                <img src='margarida-afonso-ahMCpXdUjv0-unsplash.jpg'width='250' height="225">
+        <table>
+            <tr>
+            <th> Knit </th>
             
-                    <p> 
-                        <label>Description: </label>
-                         Create fabrics by interlocking loops of yarn with needles. 
-                    </p>
-                    <p>
-                        <label>Suppies: </label>
-                        <a href='https://www.dickblick.com/categories/crafts/textile-arts/knitting-crochet/'target="_blank"> Link </a>
-                    </p>
-                    <p> 
-                        <label> Tutorial:</label>
-                        <a href='https://www.youtube.com/watch?v=Zjq0MoUZqVY'target="_blank"> Link </a>
-                    </p>
-            </li>
-            <li>
-                <h3> SEW </h3>
-                <img src='mojor-zhu-Qfdb1GbasNk-unsplash.jpg' width='250' height="225">
+                 <td><img src='margarida-afonso-ahMCpXdUjv0-unsplash.jpg'></td>
+            <td>   <p> 
+                <label>Description: </label>
+                 Create fabrics by interlocking loops of yarn with needles. 
+            </p>
+            <p>
+                <label>Suppies: </label>
+                <a href='https://www.dickblick.com/categories/crafts/textile-arts/knitting-crochet/'target="_blank"> Link </a>
+            </p>
+            <p> 
+                <label> Tutorial:</label>
+                <a href='https://www.youtube.com/watch?v=Zjq0MoUZqVY'target="_blank"> Link </a>
+            </p> 
+            </td>
+            </tr>
+            <tr>
+                <th> SEW </th>
+                <td><img src='pexels-pixabay-461035.jpg' width='250' height="225"></td>
+                <td>
                     <p> 
                         <label>Description: </label>
                         Stitch fabrics together using a needle and thread or a sewing machine. 
@@ -82,11 +116,12 @@
                         <label> Tutorial:</label>
                         <a href='https://www.youtube.com/watch?v=OpNU-PRxMqE'target="_blank"> Link </a>
                     </p> 
-            </li>
-            <li>
-
-                <h3> BEAD </h3>
-                <img src='catrin-johnson-PleATApY2Lk-unsplash.jpg' width='250' height="225">
+                </td>
+            </tr>
+            <tr>
+                <th> BEAD </th>
+                <td><img src='pexels-kim-van-vuuren-1590159.jpg' width='250' height="225"></td>
+                <td>  
                     <p> 
                         <label>Description: </label>
                         String together beads in unique patterns to create necklaces, bracelets, and more. 
@@ -99,10 +134,12 @@
                         <label> Tutorial:</label>
                         <a href='https://www.youtube.com/watch?v=ADUP4VjbzIA'target="_blank"> Link </a>
                     </p>
-            </li>
-            <li>
-                <h3> CLAY </h3>
-                <img src='alex-jones-Tq4YjCa2BSc-unsplash.jpg' width='250' height="225">  
+                </td>
+            </tr>
+            <tr>
+                <th> CLAY </th>
+                <td><img src='alex-jones-Tq4YjCa2BSc-unsplash.jpg' width='250' height="225"></td>
+                <td >  
                     <p> 
                        <label>Description:  </label> 
                        Mold clay to create three-dimensional objects or sculptures. 
@@ -115,9 +152,9 @@
                     <p> 
                         <label> Tutorial:</label>
                         <a href='https://www.youtube.com/watch?v=tnfh7cydAkA'target="_blank"> Link </a>
-                    </p>
-            </li>
-        </ul>
+                    </p> </td>
+                </tr>
+        </table>
         </body>
 
         <footer>
