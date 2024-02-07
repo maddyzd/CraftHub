@@ -17,39 +17,48 @@ h2 {
     font-weight: bold;
 }
 
-h1:hover {
+h2:hover,h1:hover,footer:hover{
     color: #F5B5E0;
 }
-
-h2:hover {
-    color: #F5B5E0;
-}
-
-header {
+header,footer {
     text-align: center; 
     margin-bottom: 10px; 
     background-color: #F5D1A9; 
     padding: 30px;
+    margin-top: 10px;  
+    color: #9CCFF5;
+    margin: auto; 
 }
 
 body {
     background-color: #F3F1E6;
-    margin: 0;  /* Remove default margin */
+    margin: 0;  
 }
 
 a { 
     text-decoration: none;
 }
 
-footer {
-    background-color: #F5D1A9; 
-    font-family: inherit; 
-    color: #9CCFF5; 
-    font-size: 65px; 
-    text-align: center;
-    margin-top: 10px;
-}
+@media (max-width: 640px) {
+    h1{
+        font-size: 70;
+        margin-bottom: 0px;
+        padding: 0px;
+    }
+    header,footer{
+        margin: auto;
+    }
+ 
+    footer {
+        padding-top: 5px;
+    }
+    h2{
+        font-size: 30px; 
+        padding: 0;
+        margin: 0 12px;
+        margin-top:0px;
+        
+    }
+   
 
-footer:hover {
-    color: #F5B5E0;
-}
+  }
